@@ -85,7 +85,7 @@ h1 > strong {
     background: url('../img/bowser.png');
 }
 
-#Peach {
+#peach {
     background: url('../img/peach.png');
 }
 
@@ -94,9 +94,13 @@ h1 > strong {
 }
 
 #toadette {
-    background: url('./img/toadette.jpg');
+    background: url('../img/toadette..png');
 }
 
 #daisy {
-    background: url('..img/daisy,png');
+    background: url('../img/daisy.png');
+}
+
+#toad {
+    background: url('../img/toad.png');
 }

@@ -1,4 +1,4 @@
-1) Al iniciar la página pedir con un prompt al usuario que escriba el nombre de un personaje del mundo de Mario Bros. El texto del prompt debe ser: "¿Quién se presenta hoy? (Mario, Luigi, Bowser, Peach, Yoshi, Toad, Toadette, Daisy)". No escribir ningún valor por defecto, para que el usuario escriba el nombre que le interese. Mostrar en la consola la respuesta del usuario.
+1) Al iniciar la página pedir con un prompt al usuario que escriba el nombre de un personaje del mundo de Mario Bros. El texto del prompt debe ser: "¿Quién se presenta hoy?" (Mario, Luigi, Bowser, Peach, Yoshi, Toad, Toadette, Daisy)". No escribir ningún valor por defecto, para que el usuario escriba el nombre que le interese. Mostrar en la consola la respuesta del usuario.
 
 
 2) Rellenar el <span> (inicialmente vacío) que está ubicado dentro del <h1> de la página con el nombre completo del personaje. Para esto, a partir del nombre ingresado por el usuario en el prompt, mostrar el nombre completo del personaje, según los siguientes valores:
