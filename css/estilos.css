@@ -104,3 +104,22 @@ h1 > strong {
 #toad {
     background: url('../img/toad.png');
 }
+
+#presentador {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: hsla(0, 50%, 50%, 1);
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 0 7px #000;
+    transition: background-color 0.3s;
+    margin: 30px;
+}
+
+#presentador:hover{
+    background-color: hsla(0, 50%, 40%, 1);
+}

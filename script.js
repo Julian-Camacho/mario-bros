@@ -1,10 +1,11 @@
-
-function presentacion() {
+function preguntarNombre() {
     //agrego un promt que pida un nombre al usuario
     //guardo el nombre en una variable.toLowerCase
     let nombre = prompt("¿Quién se presenta hoy?").toLowerCase();
+    return nombre;
+};
+function presentacion(nombre) {
     const span = document.getElementById("presentado");
-    let anterior = "";
     //comparo el nombre con un switch
     switch (nombre) {
         //modifico el html para que aparezca el nombre completo segun el nombre que el usuario ingreso
@@ -38,12 +39,12 @@ function presentacion() {
     };
     //eliminar el attributo title del resto de cajas
     let personaje = document.getElementById(nombre);
-    //modifico las cajas para que cambien el valor y se presente el personaje con .setAttribute("title", "Presentado");
-    personaje.setAttribute("title", "Presentado");
     let cajas = document.getElementById("cajas").children;
     for (let i = 0; i < cajas.length; i++) {
         if (cajas[i].id !== nombre){
             cajas[i].removeAttribute("title");
         };
     };
+    //modifico las cajas para que cambien el valor y se presente el personaje con .setAttribute("title", "Presentado");
+    personaje.setAttribute("title", "Presentado");
 };

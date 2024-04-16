@@ -8,16 +8,16 @@
 </head>
 <body>
     <h1>Hoy se presenta <span id="presentado"></span></h1>
-    <button id="presentador" onclick="presentacion()">Presentar</button>
+    <div id="presentador" onclick="presentacion(preguntarNombre())">Presentar</div>
     <div id="cajas">
-        <div id="mario" onclick="presentacion()"></div>
-        <div id="luigi"></div>
-        <div id="bowser"></div>
-        <div id="peach"></div>
-        <div id="yoshi"></div>
-        <div id="toad"></div>
-        <div id="toadette"></div>
-        <div id="daisy"></div>
+        <div id="mario" onclick="presentacion('mario')"></div>
+        <div id="luigi" onclick="presentacion('luigi')"></div>
+        <div id="bowser" onclick="presentacion('bowser')"></div>
+        <div id="peach" onclick="presentacion('peach')"></div>
+        <div id="yoshi" onclick="presentacion('yoshi')"></div>
+        <div id="toad" onclick="presentacion('toad')"></div>
+        <div id="toadette" onclick="presentacion('toadette')"></div>
+        <div id="daisy" onclick="presentacion('daisy')"></div>
     </div>
     <script src="script.js"></script>
 </body>
